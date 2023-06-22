@@ -2,5 +2,5 @@
 [Standalone Snowflake Proxy](https://community.torproject.org/relay/setup/snowflake/standalone/)
 
 ```
-docker-compose up -d snowflake-proxy
+docker-compose up -d
 ```
