@@ -1,5 +1,5 @@
 # my-Tor-Snowflake-docker-compose
-[Standalone Snowflake Proxy](https://community.torproject.org/relay/setup/snowflake/standalone/)
+Standalone Snowflake Proxy
 
 ```
 docker-compose up -d
