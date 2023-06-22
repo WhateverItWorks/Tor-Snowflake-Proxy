@@ -2,8 +2,19 @@ version: "3.7"
 
 services:
     snowflake-proxy:
-        network_mode: host
-        image: thetorproject/snowflake-proxy:latest
         container_name: snowflake-proxy
+        hostname: snowflake-proxy
+        image: thetorproject/snowflake-proxy:latest
         restart: always
         #command: [ "-ephemeral-ports-range", "30000:60000" ]
+        #network_mode: host
+        user: 65534:65534
+        read_only: true
+        security_opt:
+         - no-new-privileges:true
+        cap_drop:
+         - ALL
+        networks:
+         - snowflake-proxy
+networks:
+  snowflake-proxy:
