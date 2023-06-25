@@ -25,3 +25,7 @@ docker-compose up -d --build
 
 - [my-web-snowflake-proxy](https://github.com/WhateverItWorks/my-web-snowflake-proxy)
 - [my-simple-web-snowflake-proxy](https://github.com/WhateverItWorks/my-simple-web-snowflake-proxy)
+
+### Advanced
+
+- [Enable Google TCP BBR](https://www.linuxbabe.com/ubuntu/enable-google-tcp-bbr-ubuntu)
