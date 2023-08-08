@@ -1,4 +1,4 @@
-# my-Tor-Snowflake-docker-compose
+# Tor-Snowflake-Proxy
 Help people fight censorship from their Governments with Tor Snowflake Standalone Proxy
 
 ### Install with Docker-Compose on VPS/VDS/Dedicated Server
