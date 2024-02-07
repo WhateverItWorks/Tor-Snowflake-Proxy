@@ -1,6 +1,6 @@
 ARG VERSION=main
 
-FROM docker.io/library/golang:1.21 AS builder
+FROM docker.io/library/golang:1.22 AS builder
 
 ARG VERSION
 
